@@ -228,7 +228,6 @@ nav {
   justify-content: center;
   display: flex;
   justify-content: center;
-  width: 120rem;
   margin: 0 auto;
   gap: 5rem;
 }
@@ -287,6 +286,14 @@ img {
 
 .recent-img:hover {
   transform: scale(1.7);
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
 
 /* Call to action */
