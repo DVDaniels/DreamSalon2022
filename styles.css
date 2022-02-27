@@ -30,6 +30,11 @@ html {
   width: 100rem;
 }
 
+.placeholder {
+  width: 100rem;
+  height: 100rem;
+}
+
 h1,
 h2,
 h3 {
@@ -261,6 +266,17 @@ a {
   color: #555;
 }
 
+.read-more:link,
+.read-more:visited {
+  text-decoration: none;
+}
+
+.read-more:active,
+.read-more:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #c92a2a;
+}
+
 .read-more {
   color: #c92a2a;
   font-size: 2rem;
@@ -285,7 +301,7 @@ img {
 }
 
 .recent-img:hover {
-  transform: scale(1.7);
+  transform: scale(2);
 }
 
 figcaption {
@@ -294,6 +310,10 @@ figcaption {
   font-style: italic;
   padding: 2px;
   text-align: center;
+}
+
+#bride {
+  width: 100%;
 }
 
 /* Call to action */
