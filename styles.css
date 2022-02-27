@@ -21,6 +21,7 @@ Section max-width: 100rem
 
 html {
   background-color: #080708;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #444;
 }
 
@@ -61,13 +62,13 @@ p {
 
 .btn:link,
 .btn:visited {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
   background-color: #c92a2a;
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 16px 32px;
+  padding: 14px 32px;
   border-radius: 9px;
 }
 
@@ -94,6 +95,9 @@ p {
   border: 2px solid #999;
   color: #999;
 }
+/* .scissor {
+  font-size: 4rem;
+} */
 
 section {
   padding: 5.6rem 0;
@@ -216,7 +220,7 @@ nav {
   text-align: center;
   display: block;
   justify-content: center;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .stats {
