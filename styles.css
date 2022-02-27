@@ -20,7 +20,6 @@ Section max-width: 100rem
 }
 
 html {
-  font-family: "Rubik", sans-serif;
   background-color: #080708;
   color: #444;
 }
@@ -30,10 +29,21 @@ html {
   width: 100rem;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Didact Gothic", sans-serif;
+}
+
 h1 {
   font-size: 5.2rem;
   margin-bottom: 3.2rem;
   line-height: 1.05;
+}
+
+h2 {
+  font-size: 4.4rem;
+  margin-bottom: 4.8rem;
 }
 
 h3 {
@@ -46,6 +56,7 @@ p {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 2.8rem;
+  font-family: "Rubik", sans-serif;
 }
 
 .btn:link,
@@ -84,11 +95,6 @@ p {
   color: #999;
 }
 
-h2 {
-  font-size: 44px;
-  margin-bottom: 48px;
-}
-
 section {
   padding: 5.6rem 0;
   background-color: #f7f7f7;
@@ -96,6 +102,7 @@ section {
 
 a {
   color: #444;
+  font-family: "Rubik", sans-serif;
 }
 
 /* Header */
@@ -124,6 +131,7 @@ header {
 nav {
   font-size: 3rem;
 }
+
 .nav {
   display: flex;
   list-style: none;
