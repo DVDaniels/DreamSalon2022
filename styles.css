@@ -221,9 +221,28 @@ nav {
   border-radius: 1rem;
 }
 
+/* Business Info */
+.business-info {
+  width: 80rem;
+  text-align: center;
+  display: block;
+  justify-content: center;
+  margin: 2rem auto;
+}
+
+/* Olaplex Info Block */
+.olaplex {
+  background-color: #080808;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
 /* Stats */
 
 .stat-info {
+  background-color: #111;
   width: 80rem;
   text-align: center;
   display: block;
@@ -232,11 +251,12 @@ nav {
 }
 
 .stats {
-  background-color: #080808;
+  background-color: #111;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: 0 auto;
+  padding: 0 3rem;
   gap: 5rem;
 }
 
@@ -333,4 +353,27 @@ figcaption {
 footer {
   background-color: #000;
   padding: 1rem;
+}
+
+.footer-container {
+  display: grid;
+  align-items: flex-start;
+  justify-content: space-around;
+  grid-template-columns: 40fr 30fr 30fr;
+  gap: 3rem;
+  width: 100vw;
+}
+
+.footer-business-info h3 {
+  font-size: 3rem;
+  color: rgb(194, 194, 194);
+}
+
+.footer-business-info p {
+  line-height: 0.1;
+  font-size: 2rem;
+}
+
+.footer-logo {
+  padding-left: 5rem;
 }
