@@ -3,11 +3,6 @@
 border radius: 1rem
 
 Section max-width: 100rem
-
-
-
-
-
 */
 
 /* Shared styles */
@@ -324,7 +319,8 @@ img {
 }
 
 .recent-img {
-  transition: transform 0.2s;
+  transition: transform 0.5s;
+  transition-timing-function: ease-in-out;
 }
 
 .recent-img:hover {
