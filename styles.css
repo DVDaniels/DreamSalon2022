@@ -22,7 +22,7 @@ Section max-width: 100rem
 html {
   background-color: #080708;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #444;
+  color: #777;
 }
 
 .container {
@@ -90,8 +90,8 @@ p {
 .btn--grey:link,
 .btn--grey:visited {
   background-color: #080808;
-  border: 2px solid #444;
-  color: #444;
+  border: 2px solid #777;
+  color: #777;
 }
 
 .btn--grey:hover,
@@ -100,9 +100,6 @@ p {
   border: 2px solid #999;
   color: #999;
 }
-/* .scissor {
-  font-size: 4rem;
-} */
 
 section {
   padding: 5.6rem 0;
@@ -121,8 +118,8 @@ header {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 60fr 30fr 10fr;
   align-items: center;
   width: 100%;
 }
@@ -143,6 +140,7 @@ nav {
 
 .nav {
   display: flex;
+  justify-content: center;
   list-style: none;
   gap: 3rem;
 }
@@ -155,6 +153,11 @@ nav {
 .nav a {
   font-size: 2rem;
   text-decoration: none;
+}
+
+.social-icon {
+  height: 3rem;
+  width: 3rem;
 }
 
 .header-container {
@@ -174,14 +177,14 @@ nav {
 
 .welcome {
   font-size: 4.5rem;
-  color: #555;
+  color: #888;
 }
 
 .BrendaHero {
   width: 50rem;
   height: 50rem;
   border-radius: 200rem;
-  border: 15px solid #333;
+  border: 10px solid #333;
 }
 
 .grid-2 {
@@ -230,15 +233,19 @@ nav {
 
 .stats {
   background-color: #080808;
-  justify-content: center;
   display: flex;
   justify-content: center;
+  align-content: center;
   margin: 0 auto;
   gap: 5rem;
 }
 
 .statistic,
 a {
+  font-size: 2rem;
+}
+
+.stat-icon {
   font-size: 2rem;
 }
 
